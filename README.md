@@ -17,7 +17,7 @@ I had some llm write a setup script (can you tell?); I can't remember which.
 ```bash
 ./setup.sh
 source .venv/bin/activate
-python train.py
+uv run train_es.py
 ```
 
 # Minimal GRPO implementation
