@@ -1,3 +1,15 @@
+# Fork of tiny-grpo with ES 
+
+This is a minimal repo to implement ES (Evolution Strategies) from the following paper:
+
+[https://arxiv.org/pdf/2509.24372](https://arxiv.org/pdf/2509.24372)
+
+In addition, we fix the reward function of the tiny-grpo repo which [had some bugs](https://x.com/damekdavis/status/1975333022376600047). Most of the code was written quickly by sonnet 4.5 and gpt5.
+
+Follow the twitter discussion [https://x.com/damekdavis/status/1975319985607352420](https://x.com/damekdavis/status/1975319985607352420)
+
+![Evolutionary Strategies Plot](figures/image.png)
+
 # Minimal GRPO implementation
 
 Goal: Working toy implementation of llama-3.2-3b locally RL training with GRPO. Understanding the algorithm & hyper parameters. Just running everything locally on a single node.
