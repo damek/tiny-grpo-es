@@ -10,6 +10,16 @@ Follow the twitter discussion [https://x.com/damekdavis/status/19753199856073524
 
 ![Evolutionary Strategies Plot](figures/image.png)
 
+## Setup
+
+I had some llm write a setup script (can you tell?); I can't remember which.
+
+```bash
+./setup.sh
+source .venv/bin/activate
+python train.py
+```
+
 # Minimal GRPO implementation
 
 Goal: Working toy implementation of llama-3.2-3b locally RL training with GRPO. Understanding the algorithm & hyper parameters. Just running everything locally on a single node.
